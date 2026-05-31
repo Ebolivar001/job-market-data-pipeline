@@ -1,0 +1,24 @@
+# Environment variables and secrets
+.env
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# Local OS/editor files
+.DS_Store
+.vscode/
+
+# Raw data files
+# Keep these out of Git because data_jobs.csv is larger than GitHub's 100 MB file limit.
+src/data/*.csv
+!src/data/.gitkeep
