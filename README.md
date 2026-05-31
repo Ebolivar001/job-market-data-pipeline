@@ -1,4 +1,4 @@
-# Job Market Data Pipeline
+# Job Market Data Pipeline Ingestion Layer
 
 This repository contains the ingestion and load layer for the job market data
 pipeline. It reads the raw job posting CSV, prepares the semi-structured fields,
